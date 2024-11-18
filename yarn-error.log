@@ -1,0 +1,63 @@
+Arguments: 
+  /Users/dhivakar.saravanan/.nvm/versions/node/v18.20.4/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/Users/dhivakar.saravanan/.nvm/versions/node/v18.20.4/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Applications/CyberArk EPM.app/Contents/Helpers:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/dhivakar.saravanan/.nvm/versions/node/v18.20.4/bin:/Users/dhivakar.saravanan/.rvm/bin:/Users/dhivakar.saravanan/.rvm/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  18.20.4
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/eo-locale%2freact: Request "https://registry.yarnpkg.com/eo-locale%2freact" returned a 405
+      at params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:67038:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:517:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:517:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:631:28)
+      at IncomingMessage.emit (node:events:529:35)
+      at endReadableNT (node:internal/streams/readable:1400:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+      "dependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-redux": "^8.0.0",
+        "redux-toolkit": "^1.8.0",
+        "@mui/material": "^5.0.0",
+        "eo-locale/react": "^1.0.0",
+        "react-router-dom": "^6.0.0",
+        "react-i18next": "^11.0.0"
+      },
+      "devDependencies": {
+        "typescript": "^4.0.0",
+        "jest": "^29.0.0",
+        "@testing-library/react": "^13.0.0",
+        "@testing-library/jest-dom": "^5.0.0",
+        "eslint": "^8.0.0",
+        "prettier": "^2.0.0",
+        "eslint-plugin-react": "^7.0.0",
+        "eslint-plugin-react-hooks": "^4.0.0"
+      },
+      "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+      }
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
